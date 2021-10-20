@@ -1,0 +1,46 @@
+.principal{
+    height: 80vh;
+    padding: 15px 15px 10px 10px;
+
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr 1fr 4fr 6fr 1fr;
+
+}
+.cabecera{
+    grid-column: span 12;
+    border: 1px solid red;
+    background-color: salmon;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.titulo{
+    flex: 15;
+    text-align: center;
+}
+.menu{
+    grid-column: span 12;
+    background-color: springgreen;
+}
+h1{
+    background-color: red;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+h2{
+    color: violet;
+}
+h3{
+    color: turquoise;
+}
+.select{
+    color: yellowgreen;
+}
+.option{
+    color: green;
+}
